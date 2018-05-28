@@ -38,3 +38,7 @@ war {
     // classpath configurations.moreLibs // adds a configuration to the WEB-INF/lib dir.
     // webXml = file('src/someWeb.xml') // copies a file to WEB-INF/web.xml
 }
+
+task wrapper(type: Wrapper) {
+   gradleVersion = '4.7' //version required
+}
